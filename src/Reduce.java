@@ -5,6 +5,10 @@ public class Reduce {
         System.out.println(main(100));
     }
 
+    public static int main() {
+        return main(0);
+    }
+
     public static int main(int n) {
         int count = 0;
         while (n > 0){
